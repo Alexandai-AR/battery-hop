@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette — pulled from the Battery Hop logo */
+  --color-green: #1b6b33;
+  --color-green-dark: #0e4a22;
+  --color-gold: #f5a623;
+  --color-gold-dark: #db8e0e;
+  --color-cream: #faf8f2;
+  --color-ink: #14271b;
+
+  /* Fonts — Barlow superfamily (Australian trade feel) */
+  --font-sans: var(--font-barlow), system-ui, sans-serif;
+  --font-display: var(--font-barlow-condensed), system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
