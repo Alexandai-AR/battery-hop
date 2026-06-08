@@ -19,9 +19,9 @@ const barlowCondensed = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Mobile Car Battery Replacement Gold Coast | Battery Hop | 24/7 Call-Out",
+  title: "Mobile Car Battery Replacement Gold Coast | Battery Hop | 24/7 Mobile Service",
   description:
-    "Flat battery? Battery Hop comes to you across the Gold Coast — home, work or roadside. Upfront pricing from $179, 24/7 mobile service. Call now for a fast quote.",
+    "Flat battery? Battery Hop comes to you across the Gold Coast — home, work or roadside. Mobile battery replacement & breakdown assist, upfront pricing from $149, 24/7. Call now for a fast quote.",
   keywords: [
     "car battery replacement near me",
     "mobile car battery replacement Gold Coast",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mobile Car Battery Replacement Gold Coast | Battery Hop",
     description:
-      "We come to you — home, work or roadside. Upfront pricing from $179, 24/7 service across the Gold Coast. Call now.",
+      "We come to you — home, work or roadside. Mobile battery replacement & breakdown assist, upfront pricing from $149, 24/7 across the Gold Coast. Call now.",
     type: "website",
     locale: "en_AU",
   },
@@ -46,7 +46,7 @@ const jsonLd = {
   name: business.name,
   description:
     "Mobile car battery replacement on the Gold Coast. We come to you — home, work or roadside. Available 24/7.",
-  telephone: "+61448810001",
+  telephone: "+61404351359",
   areaServed: suburbs.map((s) => ({ "@type": "City", name: s })),
   address: {
     "@type": "PostalAddress",

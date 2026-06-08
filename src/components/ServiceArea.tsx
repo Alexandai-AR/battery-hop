@@ -15,13 +15,13 @@ export default function ServiceArea() {
           including:
         </p>
 
-        <ul className="mx-auto mt-9 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-3">
+        <ul className="mx-auto mt-9 flex max-w-3xl flex-wrap justify-center gap-2 sm:gap-2.5">
           {suburbs.map((s) => (
             <li
               key={s}
-              className="flex items-center justify-center gap-2 rounded-xl border-2 border-green/10 bg-white px-3 py-3 font-display text-base font-bold uppercase tracking-tight text-green-dark"
+              className="inline-flex items-center gap-1.5 rounded-full border-2 border-green/10 bg-white px-3.5 py-2 font-display text-sm font-bold uppercase tracking-tight text-green-dark sm:text-base"
             >
-              <MapPin className="h-5 w-5 shrink-0 text-gold" strokeWidth={2.5} />
+              <MapPin className="h-4 w-4 shrink-0 text-gold" strokeWidth={2.5} />
               {s}
             </li>
           ))}

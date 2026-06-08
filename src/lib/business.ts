@@ -3,8 +3,8 @@
 
 export const business = {
   name: "Battery Hop",
-  phoneDisplay: "0448 810 001",
-  phoneLink: "tel:+61448810001",
+  phoneDisplay: "0404 351 359",
+  phoneLink: "tel:+61404351359",
   city: "Gold Coast",
   region: "QLD",
   hours: "24 hours a day, 7 days a week",
@@ -14,7 +14,6 @@ export const business = {
 };
 
 export const suburbs = [
-  "Gold Coast",
   "Labrador",
   "Southport",
   "Ashmore",
@@ -22,37 +21,88 @@ export const suburbs = [
   "Robina",
   "Helensvale",
   "Coomera",
+  "Biggera Waters",
+  "Runaway Bay",
+  "Arundel",
+  "Parkwood",
+  "Hope Island",
+  "Upper Coomera",
   "Broadbeach",
+  "Broadbeach Waters",
+  "Mermaid Beach",
+  "Mermaid Waters",
   "Surfers Paradise",
+  "Main Beach",
+  "Burleigh Heads",
+  "Palm Beach",
+  "Miami",
+  "Varsity Lakes",
+  "Tugun",
+  "Currumbin",
+  "Currumbin Waters",
+  "Elanora",
+  "Oxenford",
+  "Pimpama",
+  "Ormeau",
 ];
 
 export const services = [
   {
     title: "Standard Cars",
     desc: "Sedans, hatches and small vehicles. The right battery, tested and fitted at your location.",
+    price: "From $149 installed",
   },
   {
     title: "SUVs & 4WDs",
     desc: "Heavier-duty batteries for larger vehicles, installed on-site with a full charging-system check.",
+    price: "From $249 installed",
   },
   {
-    title: "AGM & Stop-Start",
+    title: "AGM / EFB / Stop-Start",
     desc: "Premium batteries for modern stop-start and European vehicles, professionally fitted and registered.",
+    price: "From $299 installed",
+  },
+  {
+    title: "Motorbike Batteries",
+    desc: "Compact batteries for motorbikes and scooters, tested and replaced wherever you are.",
+    price: "Quote required",
+  },
+  {
+    title: "Truck Batteries",
+    desc: "Heavy-duty batteries for trucks and larger vehicles, fitted on-site with a full charging-system check.",
+    price: "Quote required",
+  },
+  {
+    title: "Golf Cart Batteries",
+    desc: "Replacement batteries for golf carts and buggies, supplied and fitted at your location.",
+    price: "Quote required",
+  },
+  {
+    title: "Caravan Batteries",
+    desc: "Starter and deep-cycle batteries for caravans and campers, supplied and fitted at your location.",
+    price: "Quote required",
   },
   {
     title: "Marine Batteries",
     desc: "Starter and deep-cycle batteries for boats, jet skis and dual-battery setups. Fitted on-site or at the ramp.",
+    price: "Quote required",
   },
   {
     title: "Commercial Vehicles",
     desc: "Vans, utes and fleet vehicles. Call for a fast quote tailored to your vehicle.",
+    price: "Quote required",
+  },
+  {
+    title: "Breakdown Assist",
+    desc: "Basic roadside help for common breakdown situations, including flat tyres and battery-related issues. Call for availability.",
+    price: "Call for availability",
   },
 ];
 
 export const pricing = [
-  { service: "Standard Car Batteries", price: "From $179", note: "installed" },
+  { service: "Standard Cars", price: "From $149", note: "installed" },
   { service: "SUV & 4WD Batteries", price: "From $249", note: "installed" },
-  { service: "Premium AGM / Stop-Start", price: "From $349", note: "installed" },
+  { service: "Premium AGM / EFB / Stop-Start", price: "From $299", note: "installed" },
   { service: "Marine Batteries", price: "Quote required", note: "" },
   { service: "Commercial Vehicles", price: "Quote required", note: "" },
 ];
@@ -95,7 +145,7 @@ export const faqs = [
   },
   {
     q: "How much does a new battery cost?",
-    a: "Standard car batteries start from $179 installed, SUVs and 4WDs from $249, and premium AGM/stop-start batteries from $349. We confirm the exact price before any work begins — no surprises.",
+    a: "Standard car batteries start from $149 installed, SUVs and 4WDs from $249, and premium AGM/EFB/stop-start batteries from $299. We confirm the exact price before any work begins — no surprises.",
   },
   {
     q: "Do you replace marine batteries?",
@@ -106,8 +156,8 @@ export const faqs = [
     a: "Yes. We operate 24 hours a day, 7 days a week, including nights, weekends and public holidays.",
   },
   {
-    q: "Is there a call-out fee?",
-    a: "No. There's no call-out fee. You only pay for the battery and installation, and we give you the price upfront.",
+    q: "How does your pricing work?",
+    a: "Pricing is upfront and transparent. You're given a clear price for the battery and professional installation before any work begins — no surprises.",
   },
   {
     q: "What happens to my old battery?",

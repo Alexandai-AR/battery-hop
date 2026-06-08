@@ -16,7 +16,7 @@ export default function FinalCTA() {
         <div className="mt-8 flex flex-col items-center gap-3">
           <CallButton label="Call Now — We'll Come to You" />
           <p className="font-display text-sm font-semibold uppercase tracking-wide text-white/80">
-            {business.phoneDisplay} · Available 24/7 · No call-out fee
+            {business.phoneDisplay} · Available 24/7 · Upfront pricing
           </p>
         </div>
       </div>

@@ -25,19 +25,20 @@ export default function Hero() {
           </p>
 
           <h1 className="font-display text-5xl font-extrabold uppercase leading-[0.95] tracking-tight sm:text-6xl md:text-7xl">
-            Mobile Car Battery Replacement on the{" "}
-            <span className="text-gold">Gold Coast</span>
+            Flat Battery? We Hop To{" "}
+            <span className="text-gold">You.</span>
           </h1>
 
           <p className="mt-5 max-w-xl text-lg text-white/90 sm:text-xl">
-            Flat battery? We come to you — home, work, or roadside. Tested,
-            replaced, and back on the road, usually within the hour.
+            Mobile battery replacement &amp; breakdown assist across the Gold
+            Coast — home, work or roadside. Fast response, upfront pricing. Call
+            now.
           </p>
 
           <div className="mt-8 flex flex-col items-start gap-3">
             <CallButton label="Call Now — Free Quote" className="w-full sm:w-auto" />
             <p className="font-display text-sm font-semibold uppercase tracking-wide text-white/80">
-              {business.phoneDisplay} · 24 hours · 7 days · No call-out fee
+              {business.phoneDisplay} · 24 hours · 7 days · Upfront pricing
             </p>
           </div>
 

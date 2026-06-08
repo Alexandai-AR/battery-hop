@@ -9,10 +9,10 @@ export default function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-2.5">
         <a href="#top" aria-label={`${business.name} home`}>
           <Image
-            src="/logo.png"
+            src="/BH-Logo.svg"
             alt="Battery Hop — Mobile Battery Replacement"
-            width={170}
-            height={112}
+            width={548}
+            height={170}
             priority
             className="h-12 w-auto"
           />

@@ -1,8 +1,9 @@
-import { Car, Truck, Battery, Anchor, Briefcase } from "lucide-react";
+import { Car, Truck, Battery, Bike, Caravan, Anchor, Briefcase, LifeBuoy } from "lucide-react";
 import { services } from "@/lib/business";
 import CallButton from "./CallButton";
 
-const icons = [Car, Truck, Battery, Anchor, Briefcase];
+// Order must match the `services` array in business.ts.
+const icons = [Car, Truck, Battery, Bike, Truck, Battery, Caravan, Anchor, Briefcase, LifeBuoy];
 
 const included = [
   "Battery testing",
@@ -18,11 +19,11 @@ export default function Services() {
     <section id="services" className="bg-white py-16 sm:py-24">
       <div className="mx-auto max-w-6xl px-4">
         <h2 className="text-center font-display text-4xl font-extrabold uppercase tracking-tight text-green sm:text-5xl">
-          Battery Replacement for Cars, 4WDs, Commercial &amp; Marine
+          Mobile Battery Replacement &amp; Breakdown Assist
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-lg text-ink/70">
           Whatever you drive — or float — we bring the right battery to you and
-          fit it on the spot.
+          fit it on the spot. Plus basic roadside help when you need it.
         </p>
 
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -40,6 +41,9 @@ export default function Services() {
                   {s.title}
                 </h3>
                 <p className="mt-2 text-lg text-ink/70">{s.desc}</p>
+                <span className="mt-4 inline-block rounded-full bg-green/5 px-3.5 py-1.5 font-display text-sm font-bold uppercase tracking-wide text-green">
+                  {s.price}
+                </span>
               </div>
             );
           })}

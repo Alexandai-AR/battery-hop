@@ -4,7 +4,7 @@ const steps = [
   {
     icon: PhoneCall,
     title: "Call Us",
-    desc: "Tell us your location and car. We'll give you upfront pricing and a fast arrival time. No call-out fee.",
+    desc: "Tell us your location and car. We'll give you upfront pricing and a fast arrival time.",
   },
   {
     icon: Truck,
