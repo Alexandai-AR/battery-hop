@@ -44,6 +44,7 @@ export const suburbs = [
   "Oxenford",
   "Pimpama",
   "Ormeau",
+  "Mount Tamborine",
 ];
 
 export const services = [
