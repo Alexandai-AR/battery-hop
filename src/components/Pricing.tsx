@@ -8,7 +8,7 @@ const included = [
   "Battery testing",
   "Charging system check",
   "Old battery disposal",
-  "Friendly, Honest Service",
+  "Friendly, honest service",
 ];
 
 export default function Pricing() {
