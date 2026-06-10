@@ -8,7 +8,7 @@ const steps = [
   },
   {
     icon: Truck,
-    title: "We Come to You",
+    title: "We Hop to You",
     desc: "David arrives at your home, work, or roadside — fully equipped to test and replace your battery on the spot.",
   },
   {
