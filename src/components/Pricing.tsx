@@ -1,5 +1,5 @@
 import { Check } from "lucide-react";
-import { pricing } from "@/lib/business";
+import { services } from "@/lib/business";
 import CallButton from "./CallButton";
 
 const included = [
@@ -9,6 +9,7 @@ const included = [
   "Charging system check",
   "Old battery disposal",
   "Friendly, honest service",
+  "Warranty",
 ];
 
 export default function Pricing() {
@@ -25,19 +26,29 @@ export default function Pricing() {
         </p>
 
         <div className="mt-10 overflow-hidden rounded-3xl border-2 border-green/10 bg-white shadow-sm">
-          {pricing.map((row, i) => (
+          {services.map((row, i) => (
             <div
-              key={row.service}
+              key={row.title}
               className={`flex items-center justify-between gap-4 px-6 py-5 ${
                 i !== 0 ? "border-t border-green/10" : ""
               }`}
             >
               <span className="font-display text-lg font-bold uppercase tracking-tight text-green-dark">
-                {row.service}
+                {row.title}
               </span>
               <span className="text-right">
-                <span className="font-display text-2xl font-extrabold text-green">{row.price}</span>
-                {row.note && <span className="ml-1 text-sm text-ink/50">{row.note}</span>}
+                {row.price.startsWith("From") ? (
+                  <>
+                    <span className="font-display text-2xl font-extrabold text-green">{row.price}</span>
+                    {row.priceNote && (
+                      <span className="ml-1 text-sm text-ink/50">{row.priceNote}</span>
+                    )}
+                  </>
+                ) : (
+                  <span className="font-display text-base font-bold uppercase tracking-wide text-green/70">
+                    {row.price}
+                  </span>
+                )}
               </span>
             </div>
           ))}

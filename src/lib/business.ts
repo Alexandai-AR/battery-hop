@@ -47,65 +47,69 @@ export const suburbs = [
   "Mount Tamborine",
 ];
 
+// `price` + `priceNote` drive the Pricing Guide table directly — single source
+// of truth, so service names and prices can never drift out of sync.
 export const services = [
   {
     title: "Standard Cars",
     desc: "Sedans, hatches and small vehicles. The right battery, tested and fitted at your location.",
-    price: "From $149 installed",
+    price: "From $149",
+    priceNote: "installed",
   },
   {
     title: "SUVs & 4WDs",
     desc: "Heavier-duty batteries for larger vehicles, installed on-site with a full charging-system check.",
-    price: "From $249 installed",
+    price: "From $249",
+    priceNote: "installed",
   },
   {
     title: "AGM / EFB / Stop-Start",
     desc: "Premium batteries for modern stop-start and European vehicles, professionally fitted and registered.",
-    price: "From $299 installed",
+    price: "From $299",
+    priceNote: "installed",
   },
   {
     title: "Motorbike Batteries",
     desc: "Compact batteries for motorbikes and scooters, tested and replaced wherever you are.",
     price: "Quote required",
+    priceNote: "",
   },
   {
     title: "Truck Batteries",
     desc: "Heavy-duty batteries for trucks and larger vehicles, fitted on-site with a full charging-system check.",
     price: "Quote required",
+    priceNote: "",
   },
   {
     title: "Golf Cart Batteries",
     desc: "Replacement batteries for golf carts and buggies, supplied and fitted at your location.",
     price: "Quote required",
+    priceNote: "",
   },
   {
     title: "Caravan Batteries",
     desc: "Starter and deep-cycle batteries for caravans and campers, supplied and fitted at your location.",
     price: "Quote required",
+    priceNote: "",
   },
   {
     title: "Marine Batteries",
     desc: "Starter and deep-cycle batteries for boats, jet skis and dual-battery setups. Fitted on-site or at the ramp.",
     price: "Quote required",
+    priceNote: "",
   },
   {
     title: "Commercial Vehicles",
     desc: "Vans, utes and fleet vehicles. Call for a fast quote tailored to your vehicle.",
     price: "Quote required",
+    priceNote: "",
   },
   {
     title: "Breakdown Assist",
     desc: "Basic roadside help for common breakdown situations, including flat tyres and battery-related issues. Call for availability.",
     price: "Call for availability",
+    priceNote: "",
   },
-];
-
-export const pricing = [
-  { service: "Standard Cars", price: "From $149", note: "installed" },
-  { service: "SUV & 4WD Batteries", price: "From $249", note: "installed" },
-  { service: "Premium AGM / EFB / Stop-Start", price: "From $299", note: "installed" },
-  { service: "Marine Batteries", price: "Quote required", note: "" },
-  { service: "Commercial Vehicles", price: "Quote required", note: "" },
 ];
 
 export const reviews = [
